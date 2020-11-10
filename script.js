@@ -32,7 +32,7 @@ function onLoad() {
   span5.classList.add("element-5");
   spanSelected.classList.add("element-3");
 
-  //Accedemis a todos los li y eliminados los elementos li pares.
+  //Accedemos a todos los li y eliminamos los elementos li pares.
   var eliminar = document.querySelectorAll("li");
   for (var i = 0; i < eliminar.length; i++) {
     if (i == 2 || i % 2 == 0) console.log();
